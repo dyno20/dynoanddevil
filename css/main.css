@@ -578,7 +578,7 @@ ol.playlist .col-lg-6 a {
 	opacity: 1;
 }
 .video-play-ico i {
-	font-size: 20px;
+	font-size: 30px;
 }
 /* End tours section*/
 
@@ -594,13 +594,14 @@ ol.playlist .col-lg-6 a {
 	padding-left: 30px;
 }
 .block-email-form .email-form button[type="submit"] {
-	position: absolute;
-	right: 0;
-	border-radius: 25px;
-	background: rgba(255, 255, 255, .4);
-	border: none;
-	padding: 0.76rem 1.9rem;
-	color: #ffffff;
+	position: relative;
+    /* right: 0; */
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .4);
+    border: none;
+    padding: 0.76rem 1.9rem;
+    color: #ffffff;
+    margin: 0 auto;
 }
 /*End emial section*/
 
@@ -1079,8 +1080,8 @@ ol.playlist .col-lg-6 a {
 		margin-top: 3rem !important;
 	}
 	.sing {
-		margin-bottom: 3rem !important;
-		max-width: 25%;
+		margin-bottom: 3rem;
+		max-width: 15%;
 	}
 	.block-tracklist .playlist li,
 	.block-tour {
@@ -1250,8 +1251,8 @@ ol.playlist .col-lg-6 a {
 		margin-top: 3rem !important;
 	}
 	.sing {
-		margin-bottom: 3rem !important;
-		max-width: 40%;
+		margin-bottom: 3rem;
+		max-width: 15%;
 	}
 	.block-tracklist .playlist li,
 	.block-tour {
